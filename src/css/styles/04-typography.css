@@ -1,0 +1,27 @@
+/* root 안주면 보편적으로 16px */
+:root {
+  font-size: 10px;
+}
+
+/* font-family 속성 */
+body {
+  font-family: 'SUIT Variable', sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+h1 {
+  font-weight: 500;
+}
+
+/* font-size 속성 */
+.size {
+  /* font-size: 24px;
+  font-weight: 700;
+  font-style: italic;
+  line-height: 1.5;
+  font-variant: small-caps;
+  font-family: 'pretendard variable', sans-serif; */
+  font: bold 300 italic small-caps 12px /1.5 'pretendard variable';
+  /* font는 사이즈는 필수! */
+}
