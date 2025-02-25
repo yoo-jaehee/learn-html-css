@@ -1,0 +1,29 @@
+body {
+  font-family: 'SUIT' sans-serif;
+}
+
+a {
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+ul,
+li {
+  list-style: none;
+  padding-left: 0;
+}
+
+.member-service {
+  background: yellow;
+}
+
+.member-link ul {
+  background-color: pink;
+}
+
+.member-link li {
+  text-decoration: none;
+  box-decoration-break: 00=;
+  float: left;
+  margin-right: 10px;
+}
