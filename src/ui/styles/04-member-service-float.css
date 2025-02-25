@@ -11,19 +11,23 @@ ul,
 li {
   list-style: none;
   padding-left: 0;
+  display: inline;
 }
 
 .member-service {
+  width: fit-content;
   background: yellow;
+  a:not(:last-child)::after {
+    content: '|';
+    margin-left: 10px;
+  }
 }
 
-.member-link ul {
+.member-link {
+  display: inline-block;
   background-color: pink;
-}
 
-.member-link li {
-  text-decoration: none;
-  box-decoration-break: 00=;
-  float: left;
-  margin-right: 10px;
+  span {
+    padding-right: 10px;
+  }
 }
