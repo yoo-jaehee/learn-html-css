@@ -1,0 +1,17 @@
+/* 기본 배경색 */
+body {
+  background: lightblue;
+}
+
+/* 뷰포트 크기에 따라 적용 */
+@media (min-width: 600px) {
+  body {
+    background: pink;
+  }
+}
+/* 가로 모드에서 적용 */
+@media (orientation: landscape) {
+  body {
+    background-color: orange;
+  }
+}

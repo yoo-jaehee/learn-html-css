@@ -1,0 +1,46 @@
+@import '/src/ui/components/avatar/avatar.css';
+
+/* case 01 inline block  */
+.case-01 {
+  border: 2px solid red;
+  background: gray;
+  margin: 20px;
+
+  ul {
+    width: 360px;
+    background: pink;
+    font-size: 0;
+    padding: 10px;
+    margin: 0 auto;
+  }
+
+  li {
+    background: lightblue;
+    display: inline-block;
+    margin: 10px;
+  }
+}
+
+/* case 02 float */
+.case-02 {
+  border: 2px solid red;
+  background: gray;
+  margin: 20px;
+
+  ul {
+    width: 360px;
+    background: pink;
+    font-size: 0;
+    padding: 10px;
+    margin: 0 auto;
+    display: flow-root;
+  }
+
+  li {
+    background: lightblue;
+    float: left;
+    margin: 10px;
+  }
+}
+
+/* case 03 flex */
